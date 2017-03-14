@@ -1,0 +1,34 @@
+// spacing sizes:
+$size-xxxl: 12.8rem; // 128
+$size-xxl: 6.4rem; // 128
+$size-xl: 3.2rem; // 64
+$size-l: 1.6rem; //32
+$size-m: 0.8rem; //16
+$size-s: 0.4rem; //8
+$size-xs: 0.2rem; //4
+
+// breakpoints
+$xsmall-only: "(max-width: 560px)";
+$small-up: "(min-width: 561px)";
+$small-only: "(min-width: 561px) and (max-width: 768px)";
+$up-to-medium: "(max-width: 768px)";
+$medium-up: "(min-width: 769px)";
+$medium-only: "(min-width: 769px) and (max-width: 1259px)";
+$up-to-large: "(max-width: 1259px)";
+$large-only: "(min-width: 1260px) and (max-width: 1410px)";
+$large-up: "(min-width: 1260px)";
+$xlarge-up: "(min-width: 1410px)";
+$xxlarge-up: "(min-width: 1840px)";
+
+$column: 5.4rem;
+$negative-column: -5.4rem;
+
+
+.row {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.sr {
+  font-size: 0px;
+}

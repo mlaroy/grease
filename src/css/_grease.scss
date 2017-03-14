@@ -1,0 +1,126 @@
+
+.grease-slide img {
+	max-width: 100%;
+	height: auto;
+}
+
+.grease {
+  width: 100%;
+  position: relative;
+  margin: $size-xl 0;
+
+  &--has-dots {
+    padding: 0px 0px $size-l;
+  }
+
+  &-wrap {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    perspective: 1px; // fix for chrome
+    margin: 0 auto;
+    margin-bottom: $size-s;
+  }
+
+  &-track {
+    // transition: all 0.35s ease-out;
+  }
+
+	&-slide {
+    padding: 3rem 5rem;
+    background: #ccc;
+    text-align: center;
+		display: inline-block;
+    float: left;
+    min-height: 1px;
+    img {
+      display: block;
+      margin: 0 auto $size-l;
+    }
+	}
+	&__img {
+		display: block;
+		width: auto;
+	}
+
+
+
+  &__button {
+    position: absolute;
+    opacity: 0.75;
+    transition: opacity 0.25s ease-in-out;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+
+    .button__arrow {
+      font-weight: bold;
+      text-align: center;
+      font-size: 1.4rem;
+      height: 100%;
+      display: inline-block;
+    }
+
+    &:first-of-type {
+      left: -5rem;
+    }
+    &:last-of-type {
+      right: -5rem;
+    }
+  }
+
+  &__ticker {
+    display: block;
+  }
+
+  &__dots-container {
+    position: absolute;
+    bottom: -$size-l;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    list-style: none;
+    width: 100%;
+    -webkit-padding-start: 0px;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+  }
+  &__dot {
+    text-align: center;
+    display: inline-block;
+    margin: 0 $size-s;
+    padding: 0;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    border-radius: 50%;
+    background: #ccc;
+
+    &.active {
+      background: #666;
+    }
+  }
+
+	.figcaption {
+    position: absolute;
+    left: 0;
+		bottom: -2.3rem;
+    display: inline-block;
+    max-width: 300px;
+    // height:
+		img,
+		svg {
+			display: inline-block;
+			margin-right: $size-s;
+      vertical-align: text-top;
+		}
+	}
+
+	@media #{$large-up} {
+
+    .col-med-10.medium-centered & {
+      width: 124%;
+      margin: $size-xl $negative-column $size-xxl;
+    }
+	}
+}
