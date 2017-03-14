@@ -1,6 +1,5 @@
 # Grease
--------
-ES6 Vanilla JS Carousel
+An ES6 Vanilla JS Carousel
 
 
 ## Usage
