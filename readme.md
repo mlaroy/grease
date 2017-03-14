@@ -43,7 +43,7 @@ _to do_
 * previousSlide
 * resize
 
-```html
+```javascript
 grease.on('nextSlide', () => {
 	// do stuff
 });
