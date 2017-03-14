@@ -3,7 +3,7 @@ An ES6 Vanilla JS Carousel
 
 
 ## Usage
-```
+```html
 <div id="grease-carousel">
   <div>Slide 1</div>
   <div>Slide 2</div>
@@ -54,7 +54,7 @@ _todo_
 
 
 ### Captions
-```
+```html
 <div id="grease-carousel">
   <div data-caption="caption 1">Slide 1</div>
   <div data-caption="caption 2">Slide 2</div>
