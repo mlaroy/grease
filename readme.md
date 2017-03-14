@@ -2,8 +2,14 @@
 An ES6 Vanilla JS Carousel
 
 
-## Usage
+## Getting Started
+
+Include the Grease CSS file, and the the Grease JavaScript,
 ```html
+<link rel="stylesheet" src="dist/style.css">
+
+...
+
 <div id="grease-carousel">
   <div>Slide 1</div>
   <div>Slide 2</div>
@@ -12,13 +18,19 @@ An ES6 Vanilla JS Carousel
 </div>
 ...
 
+<script src="dist/grease.js"></script>
+```
+
+### Initialize Grease
+
+```javascript
 <script>
   const carousel = document.getElementById('grease-carousel');
   const grease = new Grease( carousel );
 </script>
 ```
 
-### Options
+## Options
 * fade (default: false)
 * buttons (default: true)
 * captions (default: false)
@@ -33,10 +45,12 @@ An ES6 Vanilla JS Carousel
 * breakpoint (default: 640)
 * matchHeightClass
 
-_to do_
+_toDo_
 * autoplay
+* prev/next labels
 
-### Events
+
+## Events
 
 * init
 * nextSlide
@@ -49,11 +63,12 @@ grease.on('nextSlide', () => {
 });
 ```
 
-### Methods
+## Methods
 _todo_
 
 
-### Captions
+## Captions
+
 ```html
 <div id="grease-carousel">
   <div data-caption="caption 1">Slide 1</div>
@@ -63,6 +78,7 @@ _todo_
 </div>
 
 ...
+
 <script>
   const carousel = document.getElementById('grease-carousel');
   const grease = new Grease( carousel, {
@@ -70,3 +86,10 @@ _todo_
   });
 </script>
 ```
+
+---
+
+Find me on Twitter [@laroymike](https://twitter.com/laroymike)
+
+Copyright 2017 [Michael LaRoy](http://mikelaroy.com)
+

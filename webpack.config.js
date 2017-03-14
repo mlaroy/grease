@@ -14,7 +14,7 @@ module.exports = {
   ],
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: 'grease.js'
   },
   devtool: "source-map",
   module: {
