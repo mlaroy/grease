@@ -5,16 +5,16 @@ An ES6 Vanilla JS Carousel
 ## Usage
 ```
 <div id="grease-carousel">
-	<div>Slide 1</div>
-	<div>Slide 2</div>
-	<div>Slide 3</div>
-	<div>Slide 4</div>
+  <div>Slide 1</div>
+  <div>Slide 2</div>
+  <div>Slide 3</div>
+  <div>Slide 4</div>
 </div>
 ...
 
 <script>
-	const carousel = document.getElementById('grease-carousel');
-	const grease = new Grease( carousel );
+  const carousel = document.getElementById('grease-carousel');
+  const grease = new Grease( carousel );
 </script>
 ```
 
@@ -56,17 +56,17 @@ _todo_
 ### Captions
 ```
 <div id="grease-carousel">
-	<div data-caption="caption 1">Slide 1</div>
-	<div data-caption="caption 2">Slide 2</div>
-	<div data-caption="caption 3">Slide 3</div>
-	<div data-caption="caption 4">Slide 4</div>
+  <div data-caption="caption 1">Slide 1</div>
+  <div data-caption="caption 2">Slide 2</div>
+  <div data-caption="caption 3">Slide 3</div>
+  <div data-caption="caption 4">Slide 4</div>
 </div>
 
 ...
 <script>
-	const carousel = document.getElementById('grease-carousel');
-	const grease = new Grease( carousel, {
-		captions: true
-	});
+  const carousel = document.getElementById('grease-carousel');
+  const grease = new Grease( carousel, {
+    captions: true
+  });
 </script>
 ```
