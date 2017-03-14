@@ -16,6 +16,7 @@ Include the Grease CSS file, and the the Grease JavaScript,
   <div>Slide 3</div>
   <div>Slide 4</div>
 </div>
+
 ...
 
 <script src="dist/grease.js"></script>
@@ -26,7 +27,7 @@ Include the Grease CSS file, and the the Grease JavaScript,
 ```javascript
 <script>
   const carousel = document.getElementById('grease-carousel');
-  const grease = new Grease( carousel );
+  const grease = new Grease( carousel, options );
 </script>
 ```
 
@@ -36,7 +37,6 @@ Include the Grease CSS file, and the the Grease JavaScript,
 * captions (default: false)
 * dots (default: false)
 * ease (default: 'ease')
-* fade (default: false)
 * infinite (default: false)
 * ticker (default: false)
 * slidesToShow (default: 1)
@@ -44,6 +44,15 @@ Include the Grease CSS file, and the the Grease JavaScript,
 * speed (in milliseconds - default: 300)
 * breakpoint (default: 640)
 * matchHeightClass
+
+```javascript
+<script>
+  const grease = new Grease( carousel, {
+  	fade: true,
+  	dots: true
+  });
+</script>
+```
 
 _toDo_
 * autoplay
@@ -89,7 +98,5 @@ _todo_
 
 ---
 
-Find me on Twitter [@laroymike](https://twitter.com/laroymike)
-
-Copyright 2017 [Michael LaRoy](http://mikelaroy.com)
+&copy; 2017 [Michael LaRoy](http://mikelaroy.com). Find me on Twitter [@laroymike](https://twitter.com/laroymike)
 
