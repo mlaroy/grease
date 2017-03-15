@@ -72,7 +72,7 @@ _toDo_
 
 ```javascript
 grease.on('nextSlide', () => {
-	// do stuff
+  // do stuff
 });
 ```
 
