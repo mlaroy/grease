@@ -3,7 +3,7 @@ An ES6 Vanilla JS Carousel
 
 -----
 
-**Alpha** - This project is still in development, and probably isn't stable for use in production yet. When the time comes, a 1.0 release will be made, and it possibly will be made available as an npm module.
+**Alpha** - This project is still in development, and as such, probably isn't stable for use in production yet. When the time comes, a 1.0 release will be made, and it possibly will be made available as an npm module.
 
 
 ## Getting Started
